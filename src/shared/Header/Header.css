@@ -1,0 +1,25 @@
+.header{
+    height: 3.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1em;
+    font-size: large;
+    margin: 0%;
+    font-weight: bold;
+    top:0;
+    background-color: whitesmoke;
+}
+
+.list-section{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.list-section>li:hover{
+       color: gray;
+       cursor: pointer;
+}
