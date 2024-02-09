@@ -1,25 +1,21 @@
 .header{
-    height: 3.5em;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.1em;
-    font-size: large;
-    margin: 0%;
-    font-weight: bold;
-    top:0;
-    background-color: whitesmoke;
+     font-weight: bold;
+     height: 5em;
+     padding: 1em;
+     display: flex;
+     justify-content: space-between;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 500;
+     background-color: rgb(255, 255, 255);
 }
 
-.list-section{
-    list-style: none;
-    display: flex;
-    gap: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+.nav-pills>li>a{
+    color: black;
 }
-.list-section>li:hover{
-       color: gray;
-       cursor: pointer;
+
+.nav-pills>li>a:hover{
+    color: grey;
 }
+

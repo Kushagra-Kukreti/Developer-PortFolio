@@ -1,0 +1,72 @@
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 70%;
+    
+
+}
+
+.heading-section{
+    color: #2d2e32;
+    font-size: 3.5em;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    
+}
+.heading-section>img{
+    height: 1em;
+    object-fit: cover;
+}
+.description-section{
+ 
+color: #555;
+font-family: Mulish,sans-serif;
+font-size: 1.5em;
+font-weight: 500;
+line-height: 1.6;
+}
+
+.icons-section{
+ 
+ display: flex;
+ gap: 1em;
+
+}
+
+.left-section{
+ 
+row-gap: 1em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.photo-section{
+    
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+}
+
+.linkedin-icon,.github-icon,.photo-section{
+    transition: transform .3s ease-in-out;
+}
+.photo-section:hover{
+    cursor: pointer;
+    transform: translateY(-1em);
+}
+.linkedin-icon:hover,.github-icon:hover{
+   cursor: pointer;
+  transform: translateY(-0.2em);
+}
+ 
+
+.photo-section>img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8em;
+}

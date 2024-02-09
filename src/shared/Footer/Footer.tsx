@@ -1,8 +1,7 @@
 
-import "./Footer.css"
 const Footer = () => {
   return (
-    <div className="footer">
+    <div style={{height:"30vh",width:"100vw",backgroundColor:"black",display:"flex",justifyContent:"center", alignItems:"center"}}>
       
     </div>
   )
