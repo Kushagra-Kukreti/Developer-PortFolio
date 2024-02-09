@@ -1,19 +1,43 @@
-import "./Header.css"
+import About from "../../About/About";
+import Contact from "../../Contact/Contact";
+import Home from "../../Home/Home";
+import Projects from "../../Projects/Projects";
+import "../Header/Header.css";
 
 const Header = () => {
   return (
-    <div className="header">
-    <h3 >
-      Kushagra.Kukreti
-    </h3>
+    <>
+       <nav id="navbar-example2" className="navbar bg-body-tertiary px-3 mb-3 header shadow-sm">
+  <a className="navbar-brand" href="#">kushagra.dev</a>
+  <ul className="nav nav-pills">
+    <li className="nav-item">
+      <a className="nav-link" href="#scrollspyHeading1">Home</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" href="#scrollspyHeading2">About</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" href="#scrollspyHeading3">Projects</a>
+    </li>
+    <li className="nav-item">
+      <a className="nav-link" href="#scrollspyHeading4">Contact</a>
+    </li>
+    
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example bg-body-tertiary p-3 rounded-2" tabIndex={0}>
+  <div id="scrollspyHeading1"><Home/></div>
+  <p>...</p>
+  <div id="scrollspyHeading2"><About/></div>
+  <p>...</p>
+  <div id="scrollspyHeading3"><Projects/></div>
+  <p>...</p>
+  <div id="scrollspyHeading4"><Contact/></div>
+  <p>...</p>
+  
+</div>
+    </>
+  );
+};
 
-    <ul className="list-section">
-      <li>Home</li>
-      <li>About</li>
-      <li>Projects</li>
-    </ul>
-    </div>
-  )
-}
-
-export default Header
+export default Header;
