@@ -1,7 +1,7 @@
 
 import "./Home.css"
-import GitHubIcon from "./Icons/GitHubIcon"
-import LinkedInIcon from "./Icons/LinkedInIcon"
+import GitHubIcon from "../shared/icons/GitHubIcon"
+import LinkedInIcon from "../shared/icons/LinkedInIcon"
 const Home = () => {
   return (
     <div
@@ -11,7 +11,7 @@ const Home = () => {
          
          <div className="vstack col-7 left-section">
           <h1 className="heading-section">Front-End React Developer <img src="./waving-hand.png" alt="waving_hand"/></h1>
-          <p className="description-section">Hi, I'm Kushagra Kukreti. A passionate Front-end React Developer based in Dehradun,India</p>
+          <p className="description-section">Hi, I'm Kushagra Kukreti. A passionate Front-end React Developer based in Dehradun,India📍</p>
           <div className="icons-section"> 
           <LinkedInIcon/>
           <GitHubIcon/>

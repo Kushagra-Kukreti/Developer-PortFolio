@@ -1,0 +1,19 @@
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.copyright-container {
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 0.2em;
+   
+}
+.icons-container {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 0;
+}

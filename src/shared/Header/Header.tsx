@@ -27,13 +27,12 @@ const Header = () => {
 </nav>
 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example bg-body-tertiary p-3 rounded-2" tabIndex={0}>
   <div id="scrollspyHeading1"><Home/></div>
-  <p>...</p>
+  <section className="tech-stack section">TECH STACK |</section>
   <div id="scrollspyHeading2"><About/></div>
-  <p>...</p>
+  <section className="section"></section>
   <div id="scrollspyHeading3"><Projects/></div>
-  <p>...</p>
+  <section className="section"></section>
   <div id="scrollspyHeading4"><Contact/></div>
-  <p>...</p>
   
 </div>
     </>
