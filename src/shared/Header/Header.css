@@ -19,3 +19,13 @@
     color: grey;
 }
 
+
+.tech-stack{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section{
+    height: 5em;
+}

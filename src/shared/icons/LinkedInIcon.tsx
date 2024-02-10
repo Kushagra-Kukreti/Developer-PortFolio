@@ -4,7 +4,7 @@ const LinkedInIcon = () => {
       xmlns="http://www.w3.org/2000/svg"
       width="30"
       height="30"
-      fill="currentColor"
+      fill="#147efb"
       className="bi bi-linkedin linkedin-icon"
       viewBox="0 0 16 16"
     >

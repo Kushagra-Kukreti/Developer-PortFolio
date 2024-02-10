@@ -1,0 +1,86 @@
+.about-content {
+  display: flex;
+
+  width: 80%;
+  height: 60%;
+}
+.left-section {
+  display: flex;
+
+  justify-content: left;
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.img-section {
+  height: 100%;
+  width: 80%;
+  object-fit: cover;
+  border-radius: 2em;
+}
+.rotating-wheel {
+  background-color: whitesmoke;
+  right: 3em;
+  position: absolute;
+  bottom: -5em;
+  height: 13em;
+  width: 13em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10em;
+  padding: 0;
+}
+.rotating-image {
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  animation: rotate 8s linear infinite;
+}
+.working-man {
+  position: absolute;
+  z-index: 500;
+  height: 30%;
+  object-fit: cover;
+}
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  float: right;
+}
+.info-container {
+   
+}
+.heading {
+  color: #147efb;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.sub-heading {
+  color: #2d2e32;
+  font-family: Poppins, sans-serif;
+  font-size: 2em;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+.description {
+  color: #767676;
+  font-family: Mulish, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Start rotation from 0 degrees */
+  }
+  to {
+    transform: rotate(360deg); /* End rotation at 360 degrees (full circle) */
+  }
+}
