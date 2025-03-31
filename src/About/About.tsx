@@ -24,10 +24,10 @@ const About = () => {
         <div className={styles["right-section"]}>
           <div className={styles["info-container"]}>
            <h3 className={styles["heading"]}>About Me</h3>
-           <h4 className={styles["sub-heading"]}>Front-end Developer based in Dehradun,India📍</h4>
+           <h4 className={styles["sub-heading"]}>This is a dummy text for the demo website📍</h4>
            <p className={styles.description}>
-           Hey, my name is Kushagra, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.  <br /><br />
-           My main stack currently is React/Next.js in combination with Tailwind CSS and TypeScript.
+            The portfolios are like a second face for people they depict a lot about the person.People's portfolios
+            tells a lot about them, they are like a second shadow of them
            </p>
            </div>
         </div>

@@ -23,7 +23,7 @@ const Contact = () => {
             </span>
             <div className={styles["info-area"]}>
               <h3 className={styles["info-heading"]}>Location</h3>
-              <p className={styles["info-details"]}>Dehradun,India</p>
+              <p className={styles["info-details"]}>XYZ</p>
             </div>
           </div>
           <div className={styles["mail-icon"]}>
@@ -32,7 +32,7 @@ const Contact = () => {
             </span>
             <div className={styles["info-area"]}>
               <h3 className={styles["info-heading"]}>Mail</h3>
-              <p className={styles["info-details"]}>kukretikushagra@gmail.com</p>
+              <p className={styles["info-details"]}>example website</p>
             </div>
           </div>
         </div>

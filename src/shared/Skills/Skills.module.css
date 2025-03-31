@@ -1,0 +1,14 @@
+.skills-container{
+    display: flex;
+    gap: 1.5em;
+    margin: 1em;
+}
+
+.skills-container>img{
+    transition: transform .4s ease-in-out;
+}
+
+.skills-container>img:hover{
+    transform: translateY(-0.5em);
+    cursor: pointer;
+}
