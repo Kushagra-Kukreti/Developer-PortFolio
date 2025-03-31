@@ -11,7 +11,7 @@ const Home = () => {
          
          <div className="vstack col-7 left-section">
           <h1 className="heading-section">Front-End React Developer <img src="./waving-hand.png" alt="waving_hand"/></h1>
-          <p className="description-section">Hi, I'm Kushagra Kukreti. A passionate Front-end React Developer based in Dehradun,India📍</p>
+          <p className="description-section">Hi, This is a dummy website. A website to show the quality and demo of my work📍</p>
           <div className="icons-section"> 
           <LinkedInIcon/>
           <GitHubIcon/>
